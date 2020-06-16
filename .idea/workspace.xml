@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386449df-1299-427d-9a57-3c3399e730ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/auth/auth.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/auth/auth.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/register/register.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/register/register.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/translator/translater.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/translator/translater.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/translator/translater.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/translater/translater.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/translator/translater.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/translater/translater.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592309161093</updated>
-      <workItem from="1592309187535" duration="2676000" />
+      <workItem from="1592309187535" duration="2991000" />
     </task>
     <servers />
   </component>
