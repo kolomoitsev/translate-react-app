@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.translaterSection{
+    margin-top: 25px;
+}
+
+.translateTextArea > textarea{
+    width: 100%;
+    min-height: 200px;
+    padding: 25px 30px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 0;
+
+
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height, or 118% */
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.translateTextArea > textarea:focus{
+    outline: none;
+}
+
+.colorRight> textarea{
+    background: #F7F5F9 !important;
+}
