@@ -1,13 +1,54 @@
+
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+.sectionSwitcher{
+    margin-top: 200px;
+    border-radius: 8px 8px 8px 8px;
+
+}
+
+.languageTitle{
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: inset 0px -1px 0px rgba(208, 201, 214, 0.4);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.wtBg{
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: inset 0px -1px 0px rgba(208, 201, 214, 0.4);
+    border-radius: 8px 8px 0px 0px;
+}
+.languageTitle h5{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3F3356;
+    padding: 15px 0 0 0;
+}
+
+.blueLine{
+    width: 15%;
+    background: blue;
+    height: 3px;
+    margin: auto;
+}
+
+
+
 .languageChangerSection{
-    /*margin-top: 200px;*/
+    margin-top: 200px;
     border-radius: 8px 8px 8px 8px;
 }
 
 .wtBackground{
     background: #fff;
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
 }
 
 .languageTitle{
@@ -18,7 +59,7 @@
 }
 
 .languageTitle h5{
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
@@ -104,7 +145,7 @@
     border-bottom: 3px solid #6979F8;
 
 
-    width: 70%;
+    width: 50%;
     padding: 15px 0px 10px 0px;
 }
 

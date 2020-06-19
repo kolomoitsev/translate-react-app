@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.authSection{
+    z-index: 9999;
+    background: rgba(229, 231, 250, .5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.authWrapper{
+    width: 515px;
+    height: 545px;
+    background: #FFFFFF;
+    /* Dropshadow 3 */
+
+    margin: 8% auto 0;
+
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+}
+
+.formWrapper{
+    padding: 80px 75px;
+    text-align: center;
+}
+
+.formWrapper h3{
+
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    /* Color/Neutral/2 - Grey */
+
+    color: #3F3356;
+}
+
+.formWrapper p{
+    font-family: Poppins ,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+
+    /* Color/Neutral/3 - Grey 75% */
+
+    color: #D0C9D6;
+}
+
+
+
+.formInterface form input{
+    width: 214px;
+    height: 48px;
+
+    border: 2px solid #6979F8;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    margin: auto;
+
+}
+
+.formInterface form input:focus{
+    outline: none;
+}
+.emailInput > label {
+    position: absolute;
+    top: -1px;
+    left: 20px;
+}
+.labelSecond{
+    position:absolute;
+    top:-1px;
+    left:20px;
+    background-color:white;
+}
+
+.inputEmail{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 8px;
+    color: rgba(107, 105, 116, 0.3);
+    margin-top: 30px;
+}
+
+
+.inputPassword{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 8px;
+    color: rgba(107, 105, 116, 0.3);
+    margin-top: 30px;
+}
+
+.inputSubmit{
+    margin-top: 30px !important;
+    background: #6979F8;
+    border: 2px solid #6979F8;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+
+
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+
+    align-items: center;
+    text-align: center;
+
+    /* Color/Neutral/6 - White */
+
+    color: #FFFFFF;
+}
+
+
+.formGroup{
+    padding:10px;
+    /*border:2px solid;*/
+    margin:10px;
+    position: relative;
+}
+.formGroup>label{
+    position:absolute;
+    top:2px;
+    left:70px;
+    background-color:white;
+    padding: 0 3px;
+
+
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: rgba(107, 105, 116, 0.3);
+
+}
+
+.formGroup>input{
+    border: 2px solid #6979F8;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    width: 214px;
+    height: 48px;
+
+
+
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: rgba(107, 105, 116, 0.5);
+}
+
+.formGroup>input::placeholder{
+    color: rgba(107, 105, 116, 0.5);
+
+}

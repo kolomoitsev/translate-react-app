@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.vocablist{
+    background: #fff;
+    min-height: 505px;
+    border-left: 1px solid #ECE9F1;
+    border-right: 1px solid #ECE9F1;
+    border-bottom: 1px solid #ECE9F1;
+    box-shadow: 0px 4px 16px rgba(204, 188, 252, 0.15);
+    border-radius: 0px 0px 8px 0px;
+}
+
+.decorateTitle{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height, or 118% */
+
+    align-items: center;
+
+    /* Color/Neutral/3 - Grey 75% */
+
+    color: #D0C9D6;
+}
+
+.decorateText{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height, or 118% */
+
+    align-items: center;
+
+    /* Color/Neutral/2 - Grey */
+
+    color: #3F3356;
+}
+
+
+.round {
+    position: relative;
+}
+
+.round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    right: 15px;
+    position: absolute;
+    top: 0;
+    height: 15px;
+    width: 15px;
+}
+
+.round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    left: 3px;
+    opacity: 0;
+    position: absolute;
+    top: 4px;
+    transform: rotate(-45deg);
+    height: 4px;
+    width: 7px;
+}
+
+.round input[type="checkbox"] {
+    visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+    background: #6979F8;
+    border-color: #6979F8;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+}
+
+.stylishbtn {
+
+    background: #6979F8;
+    border-radius: 6px;
+
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Color/Neutral/6 - White */
+
+    color: #FFFFFF;
+
+    margin-top: 15px;
+    margin-right: 25px;
+}
+

@@ -2,20 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386449df-1299-427d-9a57-3c3399e730ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/translater/language-changer.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/translater/language-changer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/availiablevocabulars/availiablevocabulars.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/availiablevocabulars/availiablevocabulars.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profile/profile-small.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profile/profile.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sortSearch/common.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sortSearch/search.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sortSearch/sort.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/switchers/switcher-authorized.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/switchers/switcher-not-authorized.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/switchers/switcher.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/translater/language-menu-authorized.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/translater/language-menu-switcher.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/translater/translations.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/translater/translations.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vocabulary-list/vocabulary-list.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vocabulary-list/vocabulary-list.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vocabulary-page/vocabulary-page.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vocabulary-page/vocabulary-page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vocabulary/vocabulary-add.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vocabulary/vocabulary-global.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/auth/auth.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/auth.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/auth/auth.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/auth.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/translater/language-changer.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/translater/language-changer.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/translater/language-changer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/translater/language-changer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/translater/translater.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/translater/translater.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/translater/translater.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/translater/translater.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +66,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -87,7 +103,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592309161093</updated>
-      <workItem from="1592309187535" duration="16986000" />
+      <workItem from="1592309187535" duration="19460000" />
+      <workItem from="1592417425706" duration="14465000" />
+      <workItem from="1592568540981" duration="15434000" />
     </task>
     <servers />
   </component>
@@ -95,13 +113,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="561" y="307" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592329445138">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="561" y="307" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1592329445138" />
+    <state x="341" y="147" key="SettingsEditor" timestamp="1592568429351">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="341" y="147" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1592568429351" />
     <state x="283" y="0" width="606" height="804" key="find.popup" timestamp="1592312403755">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="283" y="0" width="606" height="804" key="find.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1592312403755" />
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1592314732029">
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1592483988138">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1592314732029" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1592483988138" />
   </component>
 </project>

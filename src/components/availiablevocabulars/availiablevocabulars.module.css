@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.availiableVocabulars{
+    background: #fff;
+    padding: 10%;
+    min-height: 390px;
+
+    border-radius: 0px 0px 0px 8px;
+}
+
+.vocabTitle h5{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: rgba(107, 105, 116, 0.5);
+}
+
+.vocabularsList{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.vocabularsList > div{
+    margin-top: 10px;
+}

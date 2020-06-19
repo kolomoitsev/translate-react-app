@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from './language-changer.module.css'
 import cn from 'classnames'
 
-
 const LanguageChanger = props => {
     return(
         <section className={styles.languageChangerSection}>
@@ -11,11 +10,8 @@ const LanguageChanger = props => {
                 <div className="row">
                     <div className="col-lg-2 p-0"> </div>
                     <div className={ cn('col-lg-8', 'p-0', styles.wtBackground)}>
-                        <div className={styles.languageTitle}>
-                            <h5>TRANSLATOR</h5>
-                            <div className={styles.blueLine}>
-                            </div>
-                        </div>
+
+
                         <div className="switcherSection">
                             <div className="row p-0">
                                 <div className="col-lg-5 text-center">
@@ -48,7 +44,7 @@ const LanguageChanger = props => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-2 p-0"> </div>
+                    <div className="col-lg-2 p-0"></div>
                 </div>
             </div>
         </section>

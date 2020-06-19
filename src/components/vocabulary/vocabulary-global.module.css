@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.addVocabulary{
+    background: #FFFFFF;
+    /* Dropshadow 3 */
+
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    margin: 0 20px;
+
+
+    position: absolute;
+    bottom: 0;
+
+}
+
+
+.addNewVocabularyBtn button:focus{
+    outline: none;
+}
+
+.addNewVocabularyBtn button:hover{
+    cursor: pointer;
+}
+
+.addNewVocabularyBtn button{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #ECEBED;
+    background: transparent;
+    padding: 15px 0 10px 0;
+
+
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    /*display: flex;*/
+    /*align-items: center;*/
+
+    /* Color/Neutral/2 - Grey */
+
+    color: #3F3356;
+}
+
+.availiableDictionaries{
+    padding: 10px 0;
+}
+
+.availiableDictionaries label{
+
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    display: flex;
+    align-items: center;
+
+    /* Color/Neutral/2 - Grey */
+
+    color: #3F3356;
+    margin: 0;
+
+}
+
+.availiableDictionaries label:hover{
+    cursor: pointer;
+}
+
+.availiableDictionaries input{
+    display: none;
+}

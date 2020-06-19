@@ -24,8 +24,6 @@ const Translater = (props) => {
 
                     <div className="col-lg-2"> </div>
 
-
-
                 </div>
             </div>
         </section>
