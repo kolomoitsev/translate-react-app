@@ -25,6 +25,27 @@
 
 }
 
+.colorizeButton{
+    background: #6979F8;
+    border-radius: 6px;
+
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    align-items: center;
+    text-align: center;
+    padding: 10px 15px;
+    /* Color/Neutral/6 - White */
+
+    border: 0;
+    color: #FFFFFF;
+
+}
+
 
 .translateTextArea > textarea:focus{
     outline: none;

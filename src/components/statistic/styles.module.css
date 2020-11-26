@@ -1,0 +1,158 @@
+.modeSelect{
+    width: 100%;
+}
+
+.customSelect{
+    width: 100%;
+    height: 35px;
+    border: 0;
+    margin-top: 10px;
+    padding: 0 25px;
+    border-left: 1px solid #ECEBED;
+    border-top: 1px solid #ECEBED;
+    border-bottom: 1px solid #ECEBED;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.customSelect:focus{
+    outline: none;
+}
+
+.statisticSection{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-left: 1px solid #ECEBED;
+    border-right: 1px solid #ECEBED;
+    border-bottom: 1px solid #ECEBED;
+}
+
+.blueline{
+    width: 100%;
+    background: #6979F8;
+    height: 4px;
+}
+
+.circle{
+    height: 26px;
+    width: 26px;
+    background: #6979F8;
+    border-radius: 20px;
+}
+
+.circle p{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height, or 118% */
+
+    text-transform: uppercase;
+
+    /* Color/Neutral/6 - White */
+    padding-top: 6px;
+    color: #FFFFFF;
+}
+
+.topLabel{
+    position: absolute;
+    top: -25px;
+    width: 100px;
+    left: -20px;
+}
+
+.center{
+    position: absolute;
+    top: -25px;
+    width: 100px;
+    left: 10px !important;
+}
+
+.topLabel p{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #6B6974;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.learningSection{
+    min-height: 437px;
+    background: #fff;
+    border-left: 1px solid #ECEBED;
+    border-radius: 0 0 8px 0;
+}
+
+.inside{
+    padding: 30px 50px;
+}
+
+.trueAnswer h3{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 13px;
+    /* identical to box height, or 54% */
+
+    color: #00C48C;
+
+    /* Color/Green/1 - Green */
+}
+
+.checkInput{
+    background: #FFFFFF;
+    /* Color/Red/1 - Red */
+
+    border: 1px solid #6B6974;
+    /* Dropshadow 1 */
+    width: 100%;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+
+
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+
+    /* Color/Neutral/2 - Grey */
+
+    color: #3F3356;
+    padding: 5px 20px;
+}
+.checkBtn{
+    background: #6979F8;
+    border-radius: 6px;
+    border: 0;
+    width: 100%;
+
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    padding: 7px 20px;
+    text-align: center;
+
+    /* Color/Neutral/6 - White */
+
+    color: #FFFFFF;
+
+}

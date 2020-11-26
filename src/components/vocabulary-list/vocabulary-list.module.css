@@ -4,6 +4,8 @@
 .vocablist{
     background: #fff;
     min-height: 505px;
+    max-height: 505px;
+    overflow-y: scroll;
     border-left: 1px solid #ECE9F1;
     border-right: 1px solid #ECE9F1;
     border-bottom: 1px solid #ECE9F1;

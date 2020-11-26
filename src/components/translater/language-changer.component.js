@@ -1,23 +1,26 @@
-import React from "react";
+import React, {useState} from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import styles from './language-changer.module.css'
 import cn from 'classnames'
 
-const LanguageChanger = props => {
+let LanguageChanger = props => {
+
+    const[LangFrom, setLangFrom] = useState('uk');
+    const[LangTo, setLangTo] = useState('en');
+
+
     return(
         <section className={styles.languageChangerSection}>
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-lg-2 p-0"> </div>
                     <div className={ cn('col-lg-8', 'p-0', styles.wtBackground)}>
-
-
                         <div className="switcherSection">
                             <div className="row p-0">
                                 <div className="col-lg-5 text-center">
                                     <div className={cn('row', styles.specialPadding)}>
                                         <div className={cn('col-lg-6', 'offset-lg-3')}>
-                                            <h3 className={cn('m-0', styles.languageTitleName )}>Ukrainian</h3>
+                                            <h3 className={cn('m-0', styles.languageTitleName )}>Russian</h3>
                                         </div>
                                         <div className="col-lg-2 d-flex align-items-center">
                                             <i className="material-icons">expand_more</i>

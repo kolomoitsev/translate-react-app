@@ -1,13 +1,19 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import {Header, Auth, Register, LanguageChanger, Translater, Translations, SwitcherAuthorized, SwitcherNotAuthorized, VocabularyPage} from "./components";
+import {Header, Auth, Register, LanguageChanger, Translater, Translations, SwitcherAuthorized, SwitcherNotAuthorized, VocabularyPage, LearningPage} from "./components";
 import styles from './app.module.css';
+import {connect} from 'react-redux'
 
-function App() {
+const App = (props) => {
+
+
+    let switcher = (sessionStorage.getItem('token')) ? <SwitcherAuthorized/> : <SwitcherNotAuthorized /> ;
+
 
     let translator = (
         <div>
-            <SwitcherAuthorized/>
+            {/*<SwitcherAuthorized/>*/}
+            {switcher}
             <LanguageChanger />
             <Translater />
             <Translations/>
@@ -15,30 +21,46 @@ function App() {
     );
 
     let vocabularypage = (
-        <div>
-            <VocabularyPage />
-        </div>
+        <VocabularyPage />
     );
 
-  return (
-    <div className={styles.App}>
-        <Header/>
-      <Router>
-          <Switch>
+    let learningPage = (
+        <LearningPage />
+    );
 
-              <Route exact path = "/vocabulary">
-                  {vocabularypage}
-              </Route>
+    let showForm = (
+        props.storeItems.window[0] ? <Auth />  : null
+    );
 
-              <Route path = "/" >
-                  {translator}
-              </Route>
+    return (
+        <div className={styles.App}>
+            <Header/>
+            <Router>
+                <Switch>
 
-          </Switch>
-      </Router>
+                    <Route exact path = "/learning">
+                        {learningPage}
+                    </Route>
 
-    </div>
-  );
+                    <Route exact path = "/vocabulary">
+                        {vocabularypage}
+                    </Route>
+
+                    <Route path = "/" >
+                        {showForm}
+                        {translator}
+                    </Route>
+
+                </Switch>
+            </Router>
+
+        </div>
+    );
 }
 
-export default App;
+export default connect(
+    state => ({
+        storeItems: state.window,
+    }),
+    dispatch =>({}),
+)(App);
